@@ -113,4 +113,16 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.item {
+  text-align: center;
+  font-size: 25px;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+  margin: 10px;
+  background-color: #888;
+  margin-top: 15px;
+  padding: 5px;
+}
 /*# sourceMappingURL=style.css.map */

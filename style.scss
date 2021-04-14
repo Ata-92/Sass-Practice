@@ -80,3 +80,28 @@ a {
     color: black;
   }
 }
+
+.item {
+  text-align: center;
+  font-size: 25px;
+}
+
+.item-1 {
+  margin: 10px;
+  background-color: #888;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.item-2 {
+  @extend .item-1;
+}
+
+.item-3 {
+  @extend .item-1;
+}
+
+.item-4 {
+  @extend .item-1;
+}
+
