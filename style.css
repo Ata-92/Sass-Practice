@@ -96,4 +96,21 @@ body {
 .login-footer a :first-child :hover {
   background-color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
+.signup {
+  display: block;
+  color: bisque;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+  margin: 25px;
+}
+
+.signup a:hover {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

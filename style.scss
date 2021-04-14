@@ -65,3 +65,18 @@ $marginBottom: 30px;
     }
   }
 }
+
+a {
+  text-decoration: none;
+}
+
+.signup {
+  display: block;
+  color: bisque;
+  transition: 300ms all;
+  margin: 25px;
+  & a:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
