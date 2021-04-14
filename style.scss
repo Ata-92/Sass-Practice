@@ -105,3 +105,9 @@ a {
   @extend .item-1;
 }
 
+@for $i from 2 to 5 {
+  .item-#{$i} {
+    padding: 5px * $i;
+  }
+}
+
