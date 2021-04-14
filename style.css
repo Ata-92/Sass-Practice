@@ -58,4 +58,42 @@ body {
   border: 2px solid #dbdbdb;
   margin-bottom: 20px;
 }
+
+.login-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.login-footer a {
+  color: #a19f9f;
+}
+
+.login-footer a :hover {
+  color: crimson;
+}
+
+.login-footer a :first-child {
+  background-color: royalblue;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  border-radius: 3px;
+  -webkit-transition: 250ms all;
+  transition: 250ms all;
+}
+
+.login-footer a :first-child :hover {
+  background-color: black;
+}
 /*# sourceMappingURL=style.css.map */

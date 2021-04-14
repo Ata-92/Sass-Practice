@@ -39,3 +39,29 @@ $marginBottom: 30px;
     margin-bottom: $marginBottom - 10;
   }
 }
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 250ms all;
+  a {
+    color: rgb(161, 159, 159);
+    :hover {
+      color: crimson;
+    }
+    :first-child {
+      background-color: royalblue;
+      width: 90px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      border-radius: 3px;
+      transition: 250ms all;
+      :hover {
+        background-color: black;
+      }
+    }
+  }
+}
